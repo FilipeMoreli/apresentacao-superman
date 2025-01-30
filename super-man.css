@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    background-color: #4710c1; /* Cor de fundo */
+    color: white;
+    padding: 20px 0;
+}
+
+header div {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+header .titulo-topo {
+    font-size: 22px;
+}
+
+header .menu {
+    margin: 0 30px;
+}
+
+header .menu a {
+    color: #4710c1;
+    background: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 6px;
+    padding: 7px 15px;
+    border-radius: 20px;
+}
+
+.img-banner {
+    width: 100%;
+}
+
+
+.sinopse {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.sinopse h2 {
+    font-size: 30px; 
+    text-align: center;
+    margin: 20px auto;
+}
+
+.sinopse p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.disponibilidade {
+    width: 100%;
+    max-width: 1024px;
+    margin: 25px auto;
+}
+
+.disponibilidade h2 {
+    font-size: 30px; 
+    text-align: center;
+    margin: 30px auto 0 auto;
+}
+
+.img-disponibilidade {
+    width: 100%;
+    max-width: 1024px;
+    box-shadow: 20px 20px 30px;
+    margin:25px auto;
+}
+
+.galeria{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.img-galeria {
+    display: flex; /* Organiza as imagens em linha */
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
+    gap: 10px; /* Espaçamento entre as imagens */
+    padding: 10px; /* Espaçamento interno */
+    justify-content: flex-start; /* Alinha as imagens à esquerda */
+}
+
+.img-galeria img {
+    width: 250px; /* Largura fixa das imagens */
+    height: auto; /* Mantém a proporção */
+    border-radius: 5px; /* (Opcional) Bordas arredondadas */
+    box-shadow: 10px 10px 15px;
+}
+
+.paragrafo-link {
+    font-size:20px;
+    text-align: center;
+    font-weight: bold;
+    margin:15px auto;
+}
+
+footer{
+    width: 100%;
+    background-color: #4710c1; /* Cor de fundo */
+    color: white;
+    padding: 20px 0;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bold;
+}
